@@ -1,0 +1,19 @@
+{
+  "name": "sylvie",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Alan Sanchez <sanchezpineda03@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/BlickLabs/Sylvie",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
