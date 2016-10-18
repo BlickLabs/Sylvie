@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/BlickLabs/Sylvie/issues"
   },
-  "homepage": "https://github.com/BlickLabs/Sylvie#readme"
+  "homepage": "https://github.com/BlickLabs/Sylvie#readme",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.11.0",
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-bower-files": "^0.2.7",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jshint": "^2.0.1",
+    "gulp-stylus": "^2.5.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "^4.3.10",
+    "stylus-import-tree": "^0.1.10"
+  }
 }
