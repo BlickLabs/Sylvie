@@ -22,4 +22,4 @@ gulp.task('watch', function () {
   gulp.watch(config.paths.src.img, ['copy:images']);
 });
 
-gulp.task('default', ['build', 'webserver:run', 'webserver:watch', 'watch']);
+gulp.task('default', ['build', 'webserver:run', 'webserver:reload', 'watch']);
