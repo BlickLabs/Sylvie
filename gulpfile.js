@@ -4,6 +4,14 @@ var gulp = require('gulp'),
 
 requireDir('./gulptasks');
 
+gulp.task('compile', [
+  'build:bower',
+  'build:styles',
+  'build:js',
+  'copy:fonts',
+  'copy:images'
+]);
+
 gulp.task('watch', function () {
   gulp.watch(config.paths.bower(''), ['build:bower']);
   gulp.watch(config.paths.src.styl, ['build:styles']);
@@ -12,12 +20,4 @@ gulp.task('watch', function () {
   gulp.watch(config.paths.src.img, ['copy:images']);
 });
 
-gulp.task('nowatch', [
-  'build:bower',
-  'build:styles',
-  'build:js',
-  'copy:fonts',
-  'copy:images'
-]);
-
-gulp.task('default', ['nowatch', 'watch']);
+gulp.task('default', ['compile', 'watch']);
