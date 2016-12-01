@@ -12,7 +12,7 @@ module.exports = {
       img: src + '/img/**/*.*',
       favicon: src + '/favicon.ico',
       fonts: src + '/fonts/**/*.*',
-      templates: src + '/templates/'
+      templates: src + '/templates/',
       root: src
     },
     dist: {
