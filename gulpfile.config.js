@@ -12,7 +12,8 @@ module.exports = {
       img: src + '/img/**/*.*',
       favicon: src + '/favicon.ico',
       fonts: src + '/fonts/**/*.*',
-      templates: src + '/templates/',
+      templates: src + '/templates/**./*.njk',
+      templatesFolder: src + '/templates/',
       root: src
     },
     dist: {
@@ -20,6 +21,7 @@ module.exports = {
       js: dist + '/js/',
       img: dist + '/img/',
       fonts: dist + '/fonts/',
+      html: dist + '/*.html',
       root: dist 
     },
     bower: function (package) {

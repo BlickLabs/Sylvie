@@ -10,6 +10,6 @@ gulp.task('webserver:run', function() {
 });
 
 gulp.task('webserver:reload', ['build:html'], function() {
-  gulp.src(config.paths.src.html)
+  gulp.src(config.paths.dist.html)
   .pipe(connect.reload());
 })
