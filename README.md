@@ -5,7 +5,7 @@
 3. Project structure
 4. Stylus naming and usage
 5. Nunjucks: extends, include, blocks
-6. Installing bower packages
+6. Installing bower packages (third-party libraries)
 7. Not in this README
 
 ## Prerequirements
@@ -165,7 +165,7 @@ This is the base structure of a section file:
 {% endblock %}
 ```
 
-## Installing bower packages
+## Installing bower packages (third-party libraries)
 If you need any js or css third-pary library (jquery and jquery-validate are already included in the project), you can search in the bower packages list: https://bower.io/search/ and install it with the following command
 
 ```
@@ -190,6 +190,20 @@ By doing this, the main source files of the library are included in the final cs
 For css libraries, you will also need to edit **gulptasks/build.bower.js** file and uncomment lines from 10 to 14.
 For both css and js libraries, you will also need to edit **src/templates/partials/base.njk** and uncomment lines 7 (css) or 20 (js).
 Afther doing this, you may need to rerun gulp.
+
+If you need to use bootstrap modals, tooltips, or any other js bootstrap module, you need to add bootstrap to the js group (it is already included as a bower dependency and just needs to be added to te group) and edit /src/styl/utils.styl to import their respective styles. Here is a list of some of the different bootstrap style modules:
+
+- 'bootstrap/tooltip'
+- 'bootstrap/popover'
+- 'bootstrap/modals'
+- 'bootstrap/dropdowns'
+
+The full list of bootstrap components is availible in
+http://getbootstrap.com/components, and their respective stylus files in
+https://github.com/maxmx/bootstrap-stylus/tree/master/bootstrap
+
+
+All the components except glyphicons will work fine
 
 ## Not in this README
 If you have any problem or doubt that is not included in this file, please contact sending a message to alan@blick.mx
