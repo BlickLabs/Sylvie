@@ -122,7 +122,7 @@ Fonts must be declared in the following way:
   font-weight $light
 ```
 
-If a font family has more than one variant, each variant must be declared individually using the same syntax. In order to make it easier no set the font-weight value, there are some predefined variables in the vars.styl file.
+If a font family has more than one variant, each variant must be declared individually using the same syntax. In order to make it easier to set the font-weight value, there are some predefined variables in the vars.styl file.
 
 ## Nunjucks blocks
 By default there are 3 blocks (meta, title and content) that can be used in every single nunjucks file that extends from /partials/base.njk (usually all files extends from it)
