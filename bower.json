@@ -3,10 +3,10 @@
   "description": "",
   "main": "index.js",
   "authors": [
-    "Alan Sanchez <sanchezpineda03@gmail.com>"
+    "Alan Sanchez"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/BlickLabs/Sylvie",
+  "homepage": "",
   "moduleType": [],
   "private": true,
   "ignore": [

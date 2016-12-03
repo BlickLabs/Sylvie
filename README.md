@@ -143,7 +143,7 @@ Nunjucks is a tool that lets you have a modularized html code and avoid repetiti
 
 A block is a region defined in the base file that IS dynamically filled, depending on what section is currently extending that file.
 
-BY default, the **/partials/base.njk** file contains 3 blocks (meta, title and content) that can be used in every single nunjucks file that extends from /partials/base.njk (usually all files extends from it).
+By default, the **/partials/base.njk** file contains 3 blocks (meta, title and content) that can be used in every single nunjucks file that extends from /partials/base.njk (usually all files extends from it).
 
 - **meta** (optional) contains the meta tags of the section (viewport and charset are already set in base.njk)
 - **title** contains the text that will be displayed in the title html tag
@@ -191,7 +191,7 @@ For css libraries, you will also need to edit **gulptasks/build.bower.js** file 
 For both css and js libraries, you will also need to edit **src/templates/partials/base.njk** and uncomment lines 7 (css) or 20 (js).
 Afther doing this, you may need to rerun gulp.
 
-If you need to use bootstrap modals, tooltips, or any other js bootstrap module, you need to add bootstrap to the js group (it is already included as a bower dependency and just needs to be added to te group) and edit /src/styl/utils.styl to import their respective styles. Here is a list of some of the different bootstrap style modules:
+If you need to use bootstrap modals, tooltips, or any other js bootstrap module, you need to add bootstrap to the js group (it is already included as a bower dependency and just needs to be added to the group) and edit /src/styl/utils.styl to import their respective styles. Here is a list of some of the different bootstrap style modules:
 
 - 'bootstrap/tooltip'
 - 'bootstrap/popover'

@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlickLabs/Sylvie.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BlickLabs/Sylvie/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/BlickLabs/Sylvie#readme",
+  "homepage": "",
   "devDependencies": {
     "autoprefixer-stylus": "^0.11.0",
     "bootstrap-styl": "^5.0.8",
