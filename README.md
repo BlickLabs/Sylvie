@@ -46,7 +46,7 @@ Stylus files, including /partials and /sections subfolders.
 
 - **vars.styl** contains stylus global variables (color names and font weights)
 - **mixins.styl** contains stylus mixins that are useful to avoid code repetition
-  - **-center-block()**: Centers a display:block element
+  - **center-block()**: Centers a display:block element
   - **remify(pxsize)**: Transforms a pixel-based size into a rem-based one (useful for responsive styles)
   - **simple-border(side, width, colour, style)**: Generates element borders. It could receive 'all', 'top', 'bottom', 'left', 'right', 'topbottom', 'leftright', 'notop', 'nobottom', 'noleft', 'noright' values for side parameter. If it is not provided, style=solid
 - **fonts.styl** contains declaration of custom fonts
