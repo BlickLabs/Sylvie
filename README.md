@@ -206,4 +206,4 @@ https://github.com/maxmx/bootstrap-stylus/tree/master/bootstrap
 All the components except glyphicons will work fine
 
 ## Not in this README
-If you have any problem or doubt that is not included in this file, please contact sending a message to alan@blick.mx
+If you have any problem or doubt that is not included in this file, please contact me by sending a message to alan@blick.mx
