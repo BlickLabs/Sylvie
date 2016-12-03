@@ -192,4 +192,4 @@ For both css and js libraries, you will also need to edit **src/templates/partia
 Afther doing this, you may need to rerun gulp.
 
 ## Not in this README
-If you have any problem or doubt that is not included in this file, please contact sending a message to alan@blick.mx
+If you have any problem or doubt that is not included in this file, please contact me by sending a message to alan@blick.mx
