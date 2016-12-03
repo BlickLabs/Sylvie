@@ -6,29 +6,37 @@ remify(pxsize)
   return unit(pxsize / 16, 'rem')
 
 simple-border(side, width, colour, style = solid)
-  border-color colour
-  border-style style
   if side == 'top'
-    border-width width 0 0 0
+    border-top width style colour
   else if side == 'right'
-    border-width 0 width 0 0
+    border-right width style colour
   else if side == 'bottom'
-    border-width 0 0 width 0
+    border-bottom width style colour
   else if side == 'left'
-    border-width 0 0 0 width
+    border-left width style colour
   else if side == 'topbottom'
-    border-width width 0
+    border-bottom width style colour
+    border-top width style colour
   else if side == 'leftright'
-    border-width 0 width
+    border-left width style colour
+    border-right width style colour
   else if side == 'notop'
-    border-width 0 width width width
+    border-bottom width style colour
+    border-left width style colour
+    border-right width style colour
   else if side == 'noright'
-    border-width width 0 width width
+    border-bottom width style colour
+    border-left width style colour
+    border-top width style colour
   else if side == 'nobottom'
-    border-width width width 0 width
-  else if side == 'notop'
-    border-width width width width 0
+    border-left width style colour
+    border-right width style colour
+    border-top width style colour
+  else if side == 'noleft'
+    border-bottom width style colour
+    border-right width style colour
+    border-top width style colour
   else if side == 'all'
-    border-width width
+    border width style colour
   else
-    border-width width
+    border width style colour
