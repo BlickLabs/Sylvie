@@ -68,6 +68,7 @@ Contains all font files used in /styl/fonts.styl
 
 ### img
 Contains all image files. Suggestion: create separated folders, such as covers, icons, etc.
+
 **favicon.ico must be placed directly inside of /src, not in /src/img**
 
 ## Stylus naming and usage
