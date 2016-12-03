@@ -12,7 +12,8 @@ module.exports = {
       img: src + '/img/**/*.*',
       favicon: src + '/favicon.ico',
       fonts: src + '/fonts/**/*.*',
-      templates: src + '/templates/**./*.njk',
+      partial: src + '/templates/partials/*.njk',
+      sectionTemplates: src + '/templates/sections/*.njk',
       templatesFolder: src + '/templates/',
       root: src
     },
