@@ -50,7 +50,7 @@ Stylus files, including /partials and /sections subfolders.
   - **remify(pxsize)**: Transforms a pixel-based size into a rem-based one (useful for responsive styles)
   - **simple-border(side, width, colour, style)**: Generates element borders. It could receive 'all', 'top', 'bottom', 'left', 'right', 'topbottom', 'leftright', 'notop', 'nobottom', 'noleft', 'noright' values for side parameter. If it is not provided, style=solid
 - **fonts.styl** contains declaration of custom fonts
-- **utils.styl** contains css utility classes. By default, there are just two classes (.cover and .simple-parallax) and commented imports for some bootstrap classes
+- **utils.styl** contains css utility classes. By default, there are just two (.cover and .simple-parallax) and commented imports for some bootstrap code
 - **base.styl** contains general styles for the website (buttons, links, lists, etc.)
 - **main.styl** imports all the other files
 - **partials** contains navbar.styl and footer.styl files
