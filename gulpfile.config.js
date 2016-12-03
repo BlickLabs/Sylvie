@@ -12,10 +12,10 @@ module.exports = {
       img: src + '/img/**/*.*',
       favicon: src + '/favicon.ico',
       fonts: src + '/fonts/**/*.*',
-      partial: src + '/templates/partials/*.njk',
       templates: src + '/templates/**/*.njk',
-      sectionTemplates: src + '/templates/sections/*.njk',
       templatesFolder: src + '/templates/',
+      partialTemplates: src + '/templates/partials/*.njk',
+      sectionTemplates: src + '/templates/sections/*.njk',
       root: src
     },
     dist: {

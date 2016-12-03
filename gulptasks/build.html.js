@@ -5,7 +5,7 @@ var gulp = require('gulp'),
 gulp.task('build:html', function () {
   gulp.src(config.paths.src.sectionTemplates)
   .pipe(nunjucksRender({
-    path: config.paths.src.templates,
+    path: config.paths.src.templatesFolder,
     ext: '.html',
     inheritExtension: false
   }))
