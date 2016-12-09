@@ -29,6 +29,8 @@ npm install -g bower
 ```
 
 ## Before coding
+Modify **packages.json** and **bower.json** files on line 2 (both files) to change the project name. Also, modify **bower.json** on line 5 to edit the authors of the project.
+
 Install local node dependencies
 ```
 npm install
