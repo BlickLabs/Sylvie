@@ -6,8 +6,8 @@
 4. Stylus naming and usage
 5. Nunjucks: extends, include, blocks
 6. Dynamic content inside templates
-6. Installing bower packages (third-party libraries)
-7. Not in this README
+7. Installing bower packages (third-party libraries)
+8. Not in this README
 
 ## Prerequirements
 - NodeJS Installed (6.9.1) [Suggestion: Use nvm to avoid common installation errors]
