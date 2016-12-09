@@ -1,6 +1,6 @@
 var gulp = require('gulp'),
   config = require('../gulpfile.config'),
-  nunjucksRender = require('gulp-nunjucks-render')
+  nunjucksRender = require('gulp-nunjucks-render'),
   data = require('gulp-data'),
   package = require('../package.json').name;
 
